@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6%;
+}
+.header{
+    min-width: 100%;
+    min-height: 200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .heading{
+    font-size: 4em;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.scndContainer{
+    width: 60%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.images{
+    justify-content: center;
+    display: flex; 
+    min-width: 100%;
+    height: 26%;
+    gap: 7%;
+}
+.one,.two,.three{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+}
+.img:hover{
+    background-color: black;
+}
+.score{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.score-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.User,.computer,.scoreUser,.scoreComp{
+    font-weight: lighter;
+}
+.scoreUser{
+    font-size: 3rem;
+}
+.scoreComp{
+    font-size: 3rem;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: black;
+    padding-left: 20px;
+    padding: 15px;
+}
+.resultheading{
+    object-fit: cover;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
